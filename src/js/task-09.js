@@ -16,6 +16,8 @@ function getRandomHexColor() {
     .padStart(6, 0);
   console.log(newColor);
   body.style.background = newColor
+
+  codeColorRef.textContent = newColor
   return newColor
 }
 console.log(btnRef);
